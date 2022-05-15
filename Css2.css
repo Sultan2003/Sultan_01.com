@@ -1,0 +1,133 @@
+*{padding: 0;
+margin: 0;}
+
+
+body{
+	background-image: url("background.webp");
+}
+
+/*-------header-----*/
+
+	header{
+	background-color: yellow;
+	height: 61px;
+	display: flex;
+	width: 100%;
+	}
+
+
+	header img{
+		height: 50px;
+		width: 50px;
+		padding: 5px;
+		padding-left: 20px;
+		position: absolute;
+	}
+
+	header h2{color: red;
+		font-weight: 600;
+		margin: auto;
+
+	}
+
+/*-------left-side----*/
+
+
+	.left-side{
+		width: 60%;
+		height: 505px;
+		position: absolute;
+
+	}
+
+	.left-side img{
+		margin-top: 30px;
+		height: 200px;
+		width: 160px;
+		padding: 10px 0 0 0;
+		padding-left: 10%;
+		margin-left: 30px;
+	}
+
+	.left-side:after{
+  content: "";
+  display: table;
+  clear: both;
+  position: absolute;
+}
+
+
+
+
+
+
+form[id="1"]{background-color: red;
+	
+	padding: 10px 60px 80px 60px;
+	padding-left: 3%;
+	margin: 0;
+	width: 600px;
+	height: 50px;
+	border: solid;
+	transform: translate(50px);
+	margin-bottom:94px;
+	margin-top:20px ;
+
+}
+
+form[id="2"]{
+	background-color: pink;
+	padding-top: 60px;
+	padding-left: 75px;
+	padding-bottom: 15px;
+	border-radius: 1px;
+	border: solid;
+	width: 250px;
+	height: 300px;
+	border: solid;
+	margin-top: 30px;
+	margin-left: 70%;
+	margin-bottom: 100px;
+
+
+
+
+}
+
+
+
+
+#refresh{
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	footer {
+		background-color: yellow;
+		display: flex;
+		height: 60px;
+		margin-bottom: 0;
+
+
+	}
+
+	footer h2{color: red;
+		margin: auto;
+		width: 100%;
+		font-weight: 600;
+		text-align: center;
+
+	}
